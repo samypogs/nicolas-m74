@@ -6,16 +6,14 @@ import Content, { HTMLContent } from '../components/Content'
 
 
 const ArtistsPage = ({ data }) => {
-    const { markdownRemark: post } = data
+    const { markdownRemark: artists } = data
     console.log(data);
     return (
         <Layout>
         <div>
-            <h1>{post.frontmatter.title}ffffffffffffffffffffffssssssssssss</h1>
+            <h1>{artists.frontmatter.title}</h1>
         </div>
-        <div>
-            {post.html}
-        </div>
+        <div dangerouslySetInnerHTML={{__html: artists.html }} />
         </Layout>
     )
 }
