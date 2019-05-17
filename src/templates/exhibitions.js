@@ -5,24 +5,23 @@ import Content, { HTMLContent } from '../components/Content'
 
 
 
-const ArtistsPage = ({ data }) => {
-    const { markdownRemark: artists } = data
+const ExhibitionPage = ({ data }) => {
+    const { markdownRemark: post } = data
     const PostContent = HTMLContent
-    console.log(data);
     return (
         <Layout>
         <div>
-            <h1>{artists.frontmatter.title}</h1>
+            <h1>{post.frontmatter.title}</h1>
         </div>
-        <PostContent content={artists.html } />
+        <PostContent content={post.html } />
         </Layout>
     )
 }
 
-export default ArtistsPage
+export default ExhibitionPage
 
 export const pageQuery = graphql`
- query ArtistsPage($id: String!) {
+ query ExhibitionQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
        html
        frontmatter {

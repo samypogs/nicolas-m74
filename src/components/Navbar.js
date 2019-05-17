@@ -106,7 +106,7 @@ const Navbar = class extends React.Component {
               <li className="menu-item">
                 <Link
                   className="menu-item-link"
-                  to="/products"
+                  to="/studios"
                   onMouseOver={e => this.changeText("Studios", e)}
                   onMouseLeave={e => this.changeText("Talleres", e)}
                 >

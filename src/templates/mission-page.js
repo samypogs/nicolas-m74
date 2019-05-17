@@ -62,7 +62,13 @@ export const missionPageQuery = graphql`
       html
       frontmatter {
         title,
-        image
+        image {
+          childImageSharp {
+            fluid(maxWidth: 820, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
