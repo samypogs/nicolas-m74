@@ -3,22 +3,41 @@ import PropTypes from 'prop-types'
 import homeBanner from "../img/home-banner.jpg";
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
+import {TweenMax} from 'gsap';
 
 export const IndexPageTemplate = () => (
   <div className="index-bg">
-    <img src={homeBanner} className="big-image" />
+    <img src={homeBanner} className="big-image" alt="" />
   </div>
 )
 
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
 
-  return (
-    <Layout>
-      <IndexPageTemplate />
-    </Layout>
-  )
+
+class IndexPage extends React.Component {
+  constructor(props){
+    super(props);
+    // reference to the DOM node
+    this.myElement = null;
+    // reference to the animation
+    this.myTween = null;
+  }
+
+  componentDidMount(){
+    // use the node ref to create the animation
+    this.myTween = TweenMax.fromTo(this.myElement, 1,{opacity: 0}, {opacity: 1});
+  }
+
+  render(){
+    return (
+        <Layout>
+          <div className="index-bg"  ref={div => this.myElement = div}>
+            <img src={homeBanner} className="big-image" alt="" />
+          </div>
+        </Layout>
+    )
+  }
 }
+
 
 IndexPage.propTypes = {
   data: PropTypes.shape({

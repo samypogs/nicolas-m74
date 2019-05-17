@@ -10,7 +10,7 @@ const StudiosPage = ({ data }) => {
         <div>
             <h1>{post.frontmatter.title}</h1>
         </div>
-        <PostContent content={post.html } />
+        <HTMLContent content={post.html } />
         </Layout>
     )
 }

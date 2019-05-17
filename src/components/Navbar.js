@@ -75,7 +75,6 @@ const Navbar = class extends React.Component {
           role="navigation"
           aria-label="main-navigation"
         >
-          <div className="container">
             <div className="navbar-brand">
               {/* Hamburger menu */}
               <div
@@ -176,7 +175,6 @@ const Navbar = class extends React.Component {
                 </Link>
               </li>
             </ul>
-          </div>
         </nav>
       </div>
     );

@@ -7,14 +7,21 @@ import Content, { HTMLContent } from '../components/Content'
 
 const ArtistsPage = ({ data }) => {
     const { markdownRemark: artists } = data
-    const PostContent = HTMLContent
     console.log(data);
     return (
         <Layout>
-        <div>
-            <h1>{artists.frontmatter.title}</h1>
-        </div>
-        <PostContent content={artists.html } />
+            <section className="section">
+            <div className="container">
+                <div className="columns">
+                    <div className="column is-5">
+                        <img src={artists.frontmatter.featuredimage.childImageSharp.fluid.src} alt={artists.frontmatter.title} />
+                    </div>
+                    <div className="column is-7">
+                        <HTMLContent className="content" content={artists.html} />
+                    </div>
+                </div>
+            </div>
+            </section>
         </Layout>
     )
 }
@@ -27,6 +34,13 @@ export const pageQuery = graphql`
        html
        frontmatter {
         title
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 800, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         description
        }
    }
