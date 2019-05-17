@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import homeBanner from "../img/home-banner.jpg";
 import Layout from '../components/Layout'
+import { graphql } from 'gatsby'
 
 export const IndexPageTemplate = () => (
   <div className="index-bg">

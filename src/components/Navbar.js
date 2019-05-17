@@ -94,7 +94,7 @@ const Navbar = class extends React.Component {
               <li className="menu-item">
                 <Link
                   className="menu-item-link"
-                  to="/products"
+                  to="/mission"
                   state={{ hovering: false }}
                   onMouseOver={e => this.changeText("Mission", e)}
                   onMouseLeave={e => this.changeText("Misión", e)}
