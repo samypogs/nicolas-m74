@@ -4,18 +4,21 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const MissionPageTemplate = ({ title, content, contentComponent }) => {
+export const MissionPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
     <section className="section section--gradient">
       <div className="container">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
+          <div className="column is-8">
             <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
+              <img src={image} />
+            </div>
+          </div>
+          
+          <div className="column is-8">
+            <div className="section">
               <PageContent className="content" content={content} />
             </div>
           </div>
@@ -40,6 +43,7 @@ const MissionPage = ({ data }) => {
       <MissionPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        image={post.image}
         content={post.html}
       />
     </Layout>
@@ -57,7 +61,8 @@ export const missionPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
+        title,
+        image
       }
     }
   }
