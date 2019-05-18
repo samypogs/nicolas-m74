@@ -104,9 +104,7 @@ const Navbar = class extends React.Component {
             </div>
             <ul id="navMenu" className={`header-menu ${this.state.navBarActiveClass}`}>
               <li className="menu-item">
-                <AniLink cover
-                  direction="left"
-                  duration={1}
+                <AniLink  cover direction="right" bg="#f2f2f2"
                   className="menu-item-link"
                   to="/mission"
                   state={{ hovering: false }}
@@ -118,7 +116,7 @@ const Navbar = class extends React.Component {
               </li>
 
               <li className="menu-item">
-                <AniLink paintDrip color="rebeccapurple" 
+                <AniLink  cover direction="right" bg="#f2f2f2"
                   className="menu-item-link"
                   to="/studios"
                   onMouseOver={e => this.changeText("Studios", e)}
@@ -129,7 +127,7 @@ const Navbar = class extends React.Component {
                 <MenuDropDownTemplate data={this.props.data} filter="studios" />
               </li>
               <li className="menu-item">
-                <AniLink fade
+                <AniLink  cover direction="right" bg="#f2f2f2"
                 
                   className="menu-item-link"
                   to="/artists"
@@ -140,55 +138,55 @@ const Navbar = class extends React.Component {
                 <MenuDropDownTemplate data={this.props.data} filter="artists" />
               </li>
               <li className="menu-item">
-                <Link
+                <AniLink  cover direction="right" bg="#f2f2f2"
                   className="menu-item-link"
                   to="/products"
                   onMouseOver={e => this.changeText("Galleries", e)}
                   onMouseLeave={e => this.changeText("Galerías", e)}
                 >
                   Galerías
-                </Link>
+                </AniLink>
               </li>
               <li className="menu-item">
-                <Link
+                <AniLink  cover direction="right" bg="#f2f2f2"
                   className="menu-item-link"
                   to="/exhibitions"
                   onMouseOver={e => this.changeText("Exhibitions", e)}
                   onMouseLeave={e => this.changeText("Exhibiciones", e)}
                 >
                   Exhibiciones
-                </Link>
+                </AniLink>
                 <MenuDropDownTemplate data={this.props.data} filter="exhibitions" />
               </li>
               <li className="menu-item">
-                <Link
+                <AniLink  cover direction="right" bg="#f2f2f2"
                   className="menu-item-link"
                   to="/products"
                   onMouseOver={e => this.changeText("Library", e)}
                   onMouseLeave={e => this.changeText("Librería", e)}
                 >
                   Librería
-                </Link>
+                </AniLink>
               </li>
               <li className="menu-item">
-                <Link
+                <AniLink  cover direction="right" bg="#f2f2f2"
                   className="menu-item-link"
                   to="/products"
                   onMouseOver={e => this.changeText("The Neighbourhood", e)}
                   onMouseLeave={e => this.changeText("La Colonia", e)}
                 >
                   La Colonia
-                </Link>
+                </AniLink>
               </li>
               <li className="menu-item">
-                <Link
+                <AniLink  cover direction="right" bg="#f2f2f2"
                   className="menu-item-link"
                   to="/contact"
                   onMouseOver={e => this.changeText("Contact", e)}
                   onMouseLeave={e => this.changeText("Contactos", e)}
                 >
                   Contactos
-                </Link>
+                </AniLink>
               </li>
             </ul>
         </nav>
