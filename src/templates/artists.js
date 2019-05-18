@@ -16,8 +16,6 @@ class ArtistsPage extends React.Component {
 
     this.layoutContents = React.createRef()
     this.transitionCover = React.createRef()
-
-    this.message = React.createRef()
     this.post = this.props.data.markdownRemark;
 
   }
@@ -68,14 +66,14 @@ class ArtistsPage extends React.Component {
   }
 
   message() {
-    console.log('message')
+
   }
 
       
     
     render(){
         return (
-            <Layout test="artists">
+            <Layout>
                 <section className="section"  ref={n => (this.layoutContents = n)}>
                     <div className="container">
                         <div className="columns">

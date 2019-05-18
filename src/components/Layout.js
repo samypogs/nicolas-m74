@@ -12,14 +12,7 @@ import { Global, css } from "@emotion/core"
 const TemplateWrapper = class extends React.Component {
   constructor(props) {
     super(props);
-
-    this.currentPage = React.createRef()
   }
-
-
-    componentDidMount(){
-      this.currentPage = this.props.test;
-    }
 
   render() {
   return (
@@ -69,7 +62,7 @@ const TemplateWrapper = class extends React.Component {
       `}
     />
       <div className="site-container">
-        <Navbar currentAnimate={this.currentPage} />
+        <Navbar />
         <div className="site__body-parts site__body-content">{this.props.children}</div>
         <Footer className="" />
       </div>

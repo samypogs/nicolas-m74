@@ -43,6 +43,10 @@ const Navbar = class extends React.Component {
     };
   }
 
+    
+
+  componentDidMount() {
+  }
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
@@ -78,7 +82,6 @@ const Navbar = class extends React.Component {
           <AniLink fade to="/" className="header__logo" title="Logo">
             <img src={logo} alt="Kaldi" className="image" />
           </AniLink>
-          {console.log(this.props)}
         </div>
         <nav
           className="main-navigation"
@@ -213,6 +216,6 @@ export default props => (
         }
       }
     `}
-    render={data => <Navbar data={data} currentAnimate={props.currentAnimate} />}
+    render={data => <Navbar data={data} currentPage={props.currentPage} />}
   />
 )

@@ -33,12 +33,6 @@ module.exports = {
         name: 'images',
       },
     },
-    {
-      resolve: 'gatsby-plugin-page-transitions',
-      options: {
-        transitionTime: 500
-      }
-    },
     'gatsby-plugin-sharp',
     'gatsby-plugin-transition-link',
     'gatsby-transformer-sharp',
