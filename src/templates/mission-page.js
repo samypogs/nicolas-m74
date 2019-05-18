@@ -8,20 +8,13 @@ export const MissionPageTemplate = ({ title, image, content, contentComponent })
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-8">
-            <div className="section">
-              <img src={image} />
-            </div>
-          </div>
-          
-          <div className="column is-8">
-            <div className="section">
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
+    <section className="section__holder">
+      <div className="columns">
+        <div className="column is-7">
+            <img src={image.childImageSharp.fluid.src} />
+        </div>
+        <div className="column is-5">
+          <PageContent className="content" content={content} />
         </div>
       </div>
     </section>
@@ -43,7 +36,7 @@ const MissionPage = ({ data }) => {
       <MissionPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        image={post.image}
+        image={post.frontmatter.image}
         content={post.html}
       />
     </Layout>

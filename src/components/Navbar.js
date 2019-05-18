@@ -2,12 +2,16 @@ import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/logo-m74.svg";
 import { graphql, StaticQuery } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import homeBanner from "../img/home-banner.jpg";
 
 
 
 const MenuDropDownTemplate = class extends React.Component {
   constructor(props) {
     super(props);
+    this.child = React.createRef();
+    
   }
   
   render() {
@@ -19,7 +23,10 @@ const MenuDropDownTemplate = class extends React.Component {
       <ul className="sub-menu">
         {pages &&
           pages.map(({ node, i }) => (
-            node.frontmatter.templateKey === filter ?  <li key={node.id}><Link to={node.fields.slug}>{node.frontmatter.title}</Link></li> : ''
+            node.frontmatter.templateKey === filter ?  
+            <li key={node.id}>
+              <AniLink cover direction="right" bg="#f2f2f2" className="menu-item-link" to={node.fields.slug}>{node.frontmatter.title}</AniLink>
+            </li> : ''
           ))}
       </ul>
     )
@@ -57,6 +64,8 @@ const Navbar = class extends React.Component {
     );
   };
 
+  
+
   changeText = (text, e) => {
     // toggle the active boolean in the state
     e.target.textContent = text;
@@ -66,9 +75,10 @@ const Navbar = class extends React.Component {
     return (
       <div className="site-header site__body-parts">
         <div className="logo__container">
-          <Link to="/" className="header__logo" title="Logo">
+          <AniLink fade to="/" className="header__logo" title="Logo">
             <img src={logo} alt="Kaldi" className="image" />
-          </Link>
+          </AniLink>
+          {console.log(this.props)}
         </div>
         <nav
           className="main-navigation"
@@ -91,7 +101,9 @@ const Navbar = class extends React.Component {
             </div>
             <ul id="navMenu" className={`header-menu ${this.state.navBarActiveClass}`}>
               <li className="menu-item">
-                <Link
+                <AniLink cover
+                  direction="left"
+                  duration={1}
                   className="menu-item-link"
                   to="/mission"
                   state={{ hovering: false }}
@@ -99,29 +111,29 @@ const Navbar = class extends React.Component {
                   onMouseLeave={e => this.changeText("Misión", e)}
                 >
                   Misión
-                </Link>
+                </AniLink>
               </li>
 
               <li className="menu-item">
-                <Link
+                <AniLink paintDrip color="rebeccapurple" 
                   className="menu-item-link"
                   to="/studios"
                   onMouseOver={e => this.changeText("Studios", e)}
                   onMouseLeave={e => this.changeText("Talleres", e)}
                 >
                   Talleres
-                </Link>
+                </AniLink>
+                <MenuDropDownTemplate data={this.props.data} filter="studios" />
               </li>
               <li className="menu-item">
-                <Link
+                <AniLink fade
+                
                   className="menu-item-link"
                   to="/artists"
                   onMouseOver={e => this.changeText("Sculptors", e)}
-                  onMouseLeave={e => this.changeText("Escultores", e)}
-                >
+                  onMouseLeave={e => this.changeText("Escultores", e)}>
                   Escultores
-                </Link>
-
+                </AniLink>
                 <MenuDropDownTemplate data={this.props.data} filter="artists" />
               </li>
               <li className="menu-item">
@@ -137,12 +149,13 @@ const Navbar = class extends React.Component {
               <li className="menu-item">
                 <Link
                   className="menu-item-link"
-                  to="/products"
+                  to="/exhibitions"
                   onMouseOver={e => this.changeText("Exhibitions", e)}
                   onMouseLeave={e => this.changeText("Exhibiciones", e)}
                 >
                   Exhibiciones
                 </Link>
+                <MenuDropDownTemplate data={this.props.data} filter="exhibitions" />
               </li>
               <li className="menu-item">
                 <Link
@@ -200,6 +213,6 @@ export default props => (
         }
       }
     `}
-    render={data => <Navbar data={data} />}
+    render={data => <Navbar data={data} currentAnimate={props.currentAnimate} />}
   />
 )

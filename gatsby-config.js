@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-emotion`,
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -32,7 +33,14 @@ module.exports = {
         name: 'images',
       },
     },
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 500
+      }
+    },
     'gatsby-plugin-sharp',
+    'gatsby-plugin-transition-link',
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',

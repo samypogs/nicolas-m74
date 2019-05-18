@@ -4,15 +4,31 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
+import { Global, css } from "@emotion/core"
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+
+
+
+const TemplateWrapper = class extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.currentPage = React.createRef()
+  }
+
+
+    componentDidMount(){
+      this.currentPage = this.props.test;
+    }
+
+  render() {
   return (
     <div>
+      
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{useSiteMetadata.title}</title>
+        <meta name="description" content={useSiteMetadata.description} />
 
         <link
           rel="apple-touch-icon"
@@ -40,17 +56,26 @@ const TemplateWrapper = ({ children }) => {
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={useSiteMetadata.title} />
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
+
+      <Global
+      styles={css`
+      .tl-edges {
+        overflow-x: unset;
+        }
+      `}
+    />
       <div className="site-container">
-        <Navbar className="" />
-        <div className="site__body-parts">{children}</div>
+        <Navbar currentAnimate={this.currentPage} />
+        <div className="site__body-parts site__body-content">{this.props.children}</div>
         <Footer className="" />
       </div>
     </div>
   )
+}
 }
 
 export default TemplateWrapper
