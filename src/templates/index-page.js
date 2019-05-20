@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
 
   render(){
     return (
-      <Layout>
+      <Layout title="M74" description="Simplify your life">
         <div className="index-bg">
           <img src={homeBanner} className="big-image" alt="" />
         </div>

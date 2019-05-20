@@ -73,8 +73,8 @@ class ArtistsPage extends React.Component {
     
     render(){
         return (
-            <Layout>
-                <section className="section"  ref={n => (this.layoutContents = n)}>
+            <Layout title={`M74 | Sculptor |  ${this.post.frontmatter.title}`} description={this.post.frontmatter.description}>
+                <section className="section__holder"  ref={n => (this.layoutContents = n)}>
                     <div className="container">
                         <div className="columns">
                             <div className="column is-5">

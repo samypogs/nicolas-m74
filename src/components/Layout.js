@@ -2,10 +2,11 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { Global, css } from "@emotion/core"
 
+import './imagehover.min.css'
+import './all.sass'
 
 
 
@@ -20,8 +21,8 @@ const TemplateWrapper = class extends React.Component {
       
       <Helmet>
         <html lang="en" />
-        <title>{useSiteMetadata.title}</title>
-        <meta name="description" content={useSiteMetadata.description} />
+        <title>{this.props.title ? this.props.title : 'M74'}</title>
+        <meta name="description" content={this.props.description ? this.props.description : 'Simplify your life'} />
 
         <link
           rel="apple-touch-icon"
