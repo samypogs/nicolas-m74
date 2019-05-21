@@ -17,7 +17,7 @@ const ArtistLanding = class extends React.Component {
       <Layout title={`M74 | Sculptor`}>
         <section className="section__holder">
           <div className="container">
-            <div className="columns is-multiline is-mobile">
+            <div className="columns is-multiline">
               {pages && pages.map(({ node, i }) => (
                 node.frontmatter.templateKey === 'artists' ?  
                 <div className="column is-4" key={node.id}>

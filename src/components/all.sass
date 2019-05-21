@@ -1,5 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
-
+@import "~slick-carousel/slick/slick.css"
+@import "~slick-carousel/slick/slick-theme.css"
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
@@ -181,6 +182,7 @@ $menu-label-color: $white-ter
   margin-top: 100px
   width: 100%
   padding: 0 30px
+  position: relative
   float: left
 
 .main-navigation 
@@ -216,7 +218,7 @@ $menu-label-color: $white-ter
   opacity: 0
   visibility: hidden
   min-width: 200px
-  background: #fff
+  background: #ffffffe6
   padding: 10px 0
   transition: all 0.5s
 
@@ -295,6 +297,43 @@ $menu-label-color: $white-ter
   width: 100%
   color: #fff
 
+
+
+// Gallery Page
+
+.gallery-list__item 
+  position: relative
+
+.gallery-list__item img
+  display: block
+
+.gallery-list__item-description
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: transparent
+  transition: all 1s
+
+
+.gallery-list__item-description h2
+  font-size: 30px
+  text-transform: uppercase
+  text-align: center
+  margin: 0
+  position: absolute
+  transition: all 1s
+  top: 50%
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+  width: 100%
+  color: #fff
+
+.gallery-list__item-description:hover
+  background: #ffffffe6
+.gallery-list__item-description:hover h2
+  color: $body-color
 // homepagez
   
 .index-bg 
@@ -310,11 +349,21 @@ $menu-label-color: $white-ter
 .index-bg img
   display: none
   width: 100%
+
+
+.navbar-burger 
+  position: absolute
+  right: 27px
+  top: 0
+  font-size: 30px
+  background: #f2f2f2
   
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
+  .site-header 
+    margin-top: 50px
 
 +mobile
   .blog-list-item header
@@ -323,3 +372,39 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%  
     margin: 0 0 1em
+  
+  .site-header 
+    margin-top: 50px  
+
+  .header-menu
+    width: 100%
+    position: absolute
+    right: 0
+    z-index: 10
+    padding: 18px
+    background: #fff
+    visibility: hidden
+    top: 50px
+    transition: all 1s
+    opacity: 0
+  .is-active 
+    visibility: visible
+    opacity: 1
+
+  .header-menu > li:hover > .sub-menu
+    visibility: hidden
+
+  .header-menu li 
+    display: block
+    text-align: center
+    width: 100%
+    padding: 5px 0
+
+  .menu-item-link
+    display: block
+
+  .header-menu a
+    font-size: 14px
+
+  .section__holder
+    padding: 1px 30px

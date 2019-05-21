@@ -147,12 +147,13 @@ const Navbar = class extends React.Component {
                   className="menu-item-link"
                   activeClassName="menu-item-link__active"
                   partiallyActive={true}
-                  to="/products"
+                  to="/gallery"
                   onMouseOver={e => this.changeText("Galleries", e)}
                   onMouseLeave={e => this.changeText("Galerías", e)}
                 >
                   Galerías
                 </AniLink>
+                <MenuDropDownTemplate data={this.props.data} filter="gallery" />
               </li>
               <li className="menu-item">
                 <AniLink  cover direction="up" bg="#f2f2f2"
