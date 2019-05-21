@@ -172,7 +172,7 @@ const Navbar = class extends React.Component {
                   className="menu-item-link"
                   activeClassName="menu-item-link__active"
                   partiallyActive={true}
-                  to="/products"
+                  to="/library"
                   onMouseOver={e => this.changeText("Library", e)}
                   onMouseLeave={e => this.changeText("Librería", e)}
                 >
@@ -184,7 +184,7 @@ const Navbar = class extends React.Component {
                   className="menu-item-link"
                   activeClassName="menu-item-link__active"
                   partiallyActive={true}
-                  to="/products"
+                  to="/"
                   onMouseOver={e => this.changeText("The Neighbourhood", e)}
                   onMouseLeave={e => this.changeText("La Colonia", e)}
                 >
