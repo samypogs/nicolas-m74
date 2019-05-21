@@ -12,6 +12,7 @@ class NeighborhoodPage extends React.Component {
     this.myElement = null;
     // reference to the animation
     this.myTween = null;
+    console.log(this.props.data)
   }
 
   render(){
@@ -38,7 +39,7 @@ export default NeighborhoodPage
 
 export const pageQuery = graphql`
   query NeighborhoodPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "neighborhood-page" } }) {
       frontmatter {
         title
         image {
