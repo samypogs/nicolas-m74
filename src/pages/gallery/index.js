@@ -38,7 +38,7 @@ const ArtistLanding = class extends React.Component {
                         <Slider {...settings}>
                             {node.frontmatter.gallery_image && node.frontmatter.gallery_image.map((result, i) => (
                                 <div>
-                                    <img key={i} src={result.image} alt={result.title} />
+                                    <img key={i} src={result.image.childImageSharp.fluid.src} alt={result.title} />
                                 </div>
                             ))}
                         </Slider>
@@ -71,7 +71,13 @@ export default props => (
               frontmatter {
                 title,templateKey
                 gallery_image{
-                    image
+                    image {
+                        childImageSharp {
+                            fluid(maxWidth: 1000, quality: 100) {
+                              ...GatsbyImageSharpFluid
+                            }
+                          }
+                    }
                     title
                     description
                 }

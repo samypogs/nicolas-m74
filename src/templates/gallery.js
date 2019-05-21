@@ -88,7 +88,7 @@ class GalleryPage extends React.Component {
                     <Slider {...settings}>
                         {this.gallery && this.gallery.map((node, i) => (
                             <div>
-                                <img key={i} src={node.image} alt={node.title} />
+                                <img key={i} src={node.image.childImageSharp.fluid.src} alt={node.title} />
                                 <p style={{padding: '10px 0'}}>{node.description}</p>
                             </div>
                         ))}
@@ -108,7 +108,13 @@ export const pageQuery = graphql`
        frontmatter {
         title
         gallery_image{
-            image
+            image {
+                childImageSharp {
+                    fluid(maxWidth: 1300, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+            }
             title
             description
           }
