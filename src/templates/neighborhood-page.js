@@ -18,7 +18,7 @@ class NeighborhoodPage extends React.Component {
     return (
       <Layout title="M74" description="Simplify your life">
         <div className="index-bg">
-          <img src={homeBanner} className="big-image" alt="" />
+          <img src={this.props.data.markdownRemark.frontmatter.image.childImageSharp.fluid.src} className="big-image" alt="" />
         </div>
       </Layout>
     )
