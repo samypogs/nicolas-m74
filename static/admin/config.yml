@@ -68,14 +68,14 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
-          
+
       - file: "src/pages/neighborhood.md"
         label: "The Neighborhood"
         name: "neighborhood"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "neighborhood-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
+          - {label: Image, name: featuredimage, widget: image}
           
       - file: "src/pages/mission/index.md"
         label: "Mission"

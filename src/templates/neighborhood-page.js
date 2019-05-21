@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import homeBanner from "../img/home-banner.jpg";
+import homeBanner from "../img/hood.png";
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
 
@@ -18,9 +18,11 @@ class NeighborhoodPage extends React.Component {
   render(){
     return (
       <Layout title="M74" description="Simplify your life">
-        <div className="index-bg">
-          <img src={this.props.data.markdownRemark.frontmatter.image.childImageSharp.fluid.src} className="big-image" alt="" />
-        </div>
+  
+        <section className="section__holder" style={{textAlign: 'center'}}>
+          <img src={homeBanner} className="big-image" alt="" />
+        </section>
+      
       </Layout>
     )
   }
@@ -42,9 +44,9 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "neighborhood-page" } }) {
       frontmatter {
         title
-        image {
+        featuredimage {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 1048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
