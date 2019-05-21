@@ -45,7 +45,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Gallery Images", name: gallery_image, widget: object, fields: [{label: "Image", name: heading, widget: image}, {label: Title, name: title, widget: "string"}, {label: Description, name: description, widget: text}]}
+      - {label: "Gallery Images", name: gallery_image, widget: list, fields: [{label: "Image", name: heading, widget: image}, {label: Title, name: title, widget: "string"}, {label: Description, name: description, widget: text}]}
 
   - name: "studios"
     label: "Studios"
