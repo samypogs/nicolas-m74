@@ -2,7 +2,7 @@
 templateKey: artists
 title: Luke Hart
 date: 2019-05-18T14:38:51.208Z
-description: a sd asd asd asd
+description: Luke Hart Bio
 featuredimage: /img/luke-hart-portrait.jpg
 ---
 **Citizenship**: British and US
