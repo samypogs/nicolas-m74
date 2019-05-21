@@ -2,7 +2,11 @@
 templateKey: artists
 title: Adeline de Monseigna
 date: 2019-05-17T14:40:28.776Z
-description: Adeline de Monseigna
+description: >-
+  Adeline de Monseignat (b.1987) is a sculptor who lives and works between
+  London and Mexico City.  Her work translates an interest in psychology,
+  mythology, urban legends, anthropology and other literary sources which refer
+  to birth, fertility, anthropomorphism and the uncanny.
 featuredimage: /img/adeline-mexico-©-manfredi-gioacchini-2018.png
 ---
 **Adeline de Monseignat** (b.1987) is a sculptor who lives and works between London and Mexico City.  Her work translates an interest in psychology, mythology, urban legends, anthropology and other literary sources which refer to birth, fertility, anthropomorphism and the uncanny.  Through the process of sculpting, the artist aims to provide physicality and functionality to such intangible concepts.  Adeline works primarily with organic, mineral, sensual, strong yet vulnerable materials such as fur, glass, textiles, steel and marble that aim to echo the human body’s qualities, vulnerabilities and potentialities.
