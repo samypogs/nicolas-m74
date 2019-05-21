@@ -1,6 +1,6 @@
 ---
 templateKey: neighborhood-page
-title: The Neighborhood
+title: 'The Neighborhood '
 image: /img/hood.png
 ---
 
