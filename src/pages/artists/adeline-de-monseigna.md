@@ -1,7 +1,7 @@
 ---
 templateKey: artists
 title: Adeline de Monseigna
-date: 2019-05-17T14:41:01.000Z
+date: 2019-05-17T14:40:28.776Z
 description: >-
   Adeline de Monseignat (b.1987) is a sculptor who lives and works between
   London and Mexico City.  Her work translates an interest in psychology,

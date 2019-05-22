@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import logo from "../img/logo-m74.svg";
 import { graphql, StaticQuery } from 'gatsby'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
@@ -15,8 +14,6 @@ const MenuDropDownTemplate = class extends React.Component {
   render() {
       const { data, filter } = this.props
       const { edges: pages } = data.allMarkdownRemark
-      
-      let template = '';
       return (
       <ul className="sub-menu">
         {pages &&

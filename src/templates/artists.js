@@ -17,7 +17,7 @@ class ArtistsPage extends React.Component {
     this.layoutContents = React.createRef()
     this.transitionCover = React.createRef()
     this.post = this.props.data.markdownRemark;
-
+    console.log(this.post);
   }
 
   componentDidMount() {
@@ -105,6 +105,7 @@ export const pageQuery = graphql`
               ...GatsbyImageSharpFluid
             }
           }
+          publicURL
         }
         description
        }
