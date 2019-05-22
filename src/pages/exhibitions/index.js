@@ -45,7 +45,6 @@ const ExhibitionLanding = class extends React.Component {
                             : ''
                           ))}
                       </Slider>
-
                       
                       <div className="gallery-list__item-description">
                           <h2>Actual</h2>
@@ -62,7 +61,7 @@ const ExhibitionLanding = class extends React.Component {
                     <div className="gallery-list__item">
                         <Slider {...settings}>
                             {pages && pages.map(({ node }) => ( 
-                              node.frontmatter.templateKey === 'exhibitions'? 
+                              node.frontmatter.templateKey === 'exhibitions'  && !node.frontmatter.current ? 
                                 <div key={node.id}>
                                     {node.frontmatter.featuredimage.childImageSharp.fixed
                                     ? <img src={node.frontmatter.featuredimage.childImageSharp.fixed.src}
@@ -88,33 +87,7 @@ const ExhibitionLanding = class extends React.Component {
               </div>
             </div>
           </div>
-          <div className="container">
-            <div className="columns is-multiline">
-              {pages && pages.map(({ node, i }) => (
-                node.frontmatter.templateKey === 'exhibitions' ?  
-                <div className="column is-4" key={node.id}>
-                  <AniLink cover direction="top" bg="#f2f2f2" className="card-list__item" to={node.fields.slug}>
-                  
-                    <div className="studio-list__item">
-                        {node.frontmatter.featuredimage.childImageSharp.fluid
-                        ? <img src={node.frontmatter.featuredimage.childImageSharp.fluid.src}
-                                alt={node.frontmatter.title}
-                            />
-                        : <img src={node.frontmatter.featuredimage.publicURL}
-                                alt={node.frontmatter.title} 
-                        />
-                        }
-                        
-                        <div className="studio-list__item-description">
-                            <h2>{node.frontmatter.title}</h2>
-                        </div>
-                    </div>
-                  
-                  </AniLink>
-                </div> : ''
-              ))}
-            </div>
-          </div>
+          
         </section>
       </Layout>
     )
@@ -130,7 +103,7 @@ export default props => (
             node {
               id
               frontmatter {
-                title,templateKey
+                title, templateKey, current
                 featuredimage {
                   childImageSharp {
                     fixed(width: 800, height: 800) {

@@ -5,8 +5,10 @@ import Navbar from '../components/Navbar'
 import useSiteMetadata from './SiteMetadata'
 import { Global, css } from "@emotion/core"
 
-import './imagehover.min.css'
 import './all.sass'
+import './imagehover.min.css'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 
 
 const TemplateWrapper = class extends React.Component {
