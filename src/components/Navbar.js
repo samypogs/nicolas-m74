@@ -3,8 +3,6 @@ import { Link } from "gatsby";
 import logo from "../img/logo-m74.svg";
 import { graphql, StaticQuery } from 'gatsby'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
-import homeBanner from "../img/home-banner.jpg";
-
 
 
 const MenuDropDownTemplate = class extends React.Component {
