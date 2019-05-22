@@ -6,12 +6,8 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 
 const ArtistLanding = class extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    const { data, filter } = this.props
+    const { data } = this.props
     const { edges: pages } = data.allMarkdownRemark
     return (
       <Layout title={`M74 | Sculptor`}>
@@ -24,8 +20,14 @@ const ArtistLanding = class extends React.Component {
                   <AniLink cover direction="top" bg="#f2f2f2" className="card-list__item" to={node.fields.slug}>
                   
                     <figure className="imghvr-push-up">
-                        <img src={node.frontmatter.featuredimage.childImageSharp.fluid.src} alt={node.frontmatter.title} />
-                  
+                        {node.frontmatter.featuredimage.childImageSharp.fixed
+                            ? <img src={node.frontmatter.featuredimage.childImageSharp.fixed.src}
+                                    alt={node.frontmatter.title}
+                                />
+                            : <img src={node.frontmatter.featuredimage.publicURL}
+                                    alt={node.frontmatter.title} 
+                            />
+                            }
                         <figcaption className="figure-caption">
                             <h2>{node.frontmatter.title}</h2>
                             <div className="figure-caption__description">{node.frontmatter.title}</div>
@@ -56,8 +58,8 @@ export default props => (
                 title,templateKey
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 800, quality: 100) {
-                      ...GatsbyImageSharpFluid
+                    fixed(width: 500, height: 500) {
+                        ...GatsbyImageSharpFixed
                     }
                   }
                 }

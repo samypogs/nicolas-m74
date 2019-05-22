@@ -161,7 +161,26 @@ const Navbar = class extends React.Component {
                 >
                   Exhibiciones
                 </AniLink>
-                <MenuDropDownTemplate data={this.props.data} filter="exhibitions" />
+
+                
+
+                <ul className="sub-menu">
+                  <li>
+                    <AniLink cover direction="down" bg="#f2f2f2" className="menu-item-link" 
+                      activeClassName="menu-item-link__active" to="/exhibitions/current">
+                      Actual
+                    </AniLink>
+                  </li>
+                  <li>
+                    <AniLink cover direction="down" bg="#f2f2f2" className="menu-item-link" 
+                      activeClassName="menu-item-link__active" to="/exhibitions/past">
+                      Anteriores
+                    </AniLink>
+                  </li>
+                </ul>
+
+
+                
               </li>
               <li className="menu-item">
                 <AniLink  cover direction="up" bg="#f2f2f2"
@@ -180,7 +199,7 @@ const Navbar = class extends React.Component {
                   className="menu-item-link"
                   activeClassName="menu-item-link__active"
                   partiallyActive={true}
-                  to="/"
+                  to="/neighborhood"
                   onMouseOver={e => this.changeText("The Neighbourhood", e)}
                   onMouseLeave={e => this.changeText("La Colonia", e)}
                 >

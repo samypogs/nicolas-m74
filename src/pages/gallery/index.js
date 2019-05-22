@@ -7,12 +7,8 @@ import Slider from "react-slick";
 
 
 const ArtistLanding = class extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    const { data, filter } = this.props
+    const { data } = this.props
     const { edges: pages } = data.allMarkdownRemark
     const settings = {
       dots: false,
@@ -38,7 +34,14 @@ const ArtistLanding = class extends React.Component {
                         <Slider {...settings}>
                             {node.frontmatter.gallery_image && node.frontmatter.gallery_image.map((result, i) => (
                                 <div>
-                                    <img key={i} src={result.image.childImageSharp.fluid.src} alt={result.title} />
+                                    {result.image.childImageSharp.fixed
+                                    ? <img src={result.image.childImageSharp.fixed.src}
+                                            alt={result.title}
+                                        />
+                                    : <img src={result.image.publicURL}
+                                            alt={result.title} 
+                                    />
+                                    }
                                 </div>
                             ))}
                         </Slider>
@@ -73,8 +76,8 @@ export default props => (
                 gallery_image{
                     image {
                         childImageSharp {
-                            fluid(maxWidth: 1000, quality: 100) {
-                              ...GatsbyImageSharpFluid
+                            fixed(width: 700, height: 700) {
+                                ...GatsbyImageSharpFixed
                             }
                           }
                     }

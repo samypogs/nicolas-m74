@@ -2,9 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../components/Content'
-import { TimelineMax, Power1 } from 'gsap'
-import TransitionLink, { TransitionPortal } from 'gatsby-plugin-transition-link'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import { TimelineMax } from 'gsap'
 
 class ArtistsPage extends React.Component {
       
@@ -78,7 +76,14 @@ class ArtistsPage extends React.Component {
                     <div className="container">
                         <div className="columns">
                             <div className="column is-5">
-                                <img src={this.post.frontmatter.featuredimage.childImageSharp.fluid.src} alt={this.post.frontmatter.title} />
+                            {this.post.frontmatter.featuredimage.childImageSharp.fixed
+                            ? <img src={this.post.frontmatter.featuredimage.childImageSharp.fixed.src}
+                                    alt={this.post.frontmatter.title}
+                                />
+                            : <img src={this.post.frontmatter.featuredimage.publicURL}
+                                    alt={this.post.frontmatter.title} 
+                            />
+                            }
                             </div>
                             <div className="column is-7" >
                                 <HTMLContent className="content" content={this.post.html} />
@@ -101,8 +106,8 @@ export const pageQuery = graphql`
         title
         featuredimage {
           childImageSharp {
-            fluid(maxWidth: 800, quality: 100) {
-              ...GatsbyImageSharpFluid
+            fixed(width: 700, height: 700) {
+               ...GatsbyImageSharpFixed
             }
           }
           publicURL

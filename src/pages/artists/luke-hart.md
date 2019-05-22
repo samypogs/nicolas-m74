@@ -10,13 +10,8 @@ featuredimage: /img/luke-hart-portrait.jpg
 **Education**
 
 Master of Arts, Sculpture
-
 2013—Royal College of Art, London, United Kingdom
-
-
-
 Bachelor of Fine Arts, Sculpture, with honours
-
 2007—Pratt Institute, Brooklyn, New York, USA
 
 

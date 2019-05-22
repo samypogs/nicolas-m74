@@ -1,8 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
-import { HTMLContent } from '../components/Content'
-import { TimelineMax, Power1 } from 'gsap'
+import { TimelineMax } from 'gsap'
 import Slider from "react-slick";
 
 class GalleryPage extends React.Component {

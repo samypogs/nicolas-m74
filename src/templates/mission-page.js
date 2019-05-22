@@ -11,7 +11,7 @@ export const MissionPageTemplate = ({ title, image, content, contentComponent })
     <section className="section__holder">
       <div className="columns">
         <div className="column is-7">
-            <img src={image.childImageSharp.fluid.src} />
+            <img src={image.childImageSharp.fluid.src} alt="" />
         </div>
         <div className="column is-5">
           <PageContent className="content" content={content} />

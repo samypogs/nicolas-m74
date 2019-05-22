@@ -6,12 +6,8 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 
 const StudiosLanding = class extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    const { data, filter } = this.props
+    const { data } = this.props
     const { edges: pages } = data.allMarkdownRemark
     return (
       <Layout>

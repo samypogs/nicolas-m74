@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
-import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 
 
 

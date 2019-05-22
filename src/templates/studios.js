@@ -2,9 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
 import { HTMLContent } from '../components/Content'
-import { TimelineMax, Power1 } from 'gsap'
-import TransitionLink, { TransitionPortal } from 'gatsby-plugin-transition-link'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import { TimelineMax } from 'gsap'
 
 class StudiosPage extends React.Component {
       
