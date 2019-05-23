@@ -8,12 +8,28 @@ import { HTMLContent } from '../components/Content'
 const ExhibitionPage = ({ data }) => {
     const { markdownRemark: post } = data
     const PostContent = HTMLContent
+    const MetaTitle = post.frontmatter.current ? 'Current' : 'Past'
     return (
-        <Layout>
-        <div>
-            <h1>{post.frontmatter.title}</h1>
-        </div>
-        <PostContent content={post.html } />
+        <Layout title={`M74 | Exhibition | ${MetaTitle} | ${post.frontmatter.title}`}>
+            <section className="section__holder">
+                <div className="container">
+                    <div className="columns">
+                        <div className="column is-6">
+                            {post.frontmatter.featuredimage.childImageSharp.fixed
+                                ? <img src={post.frontmatter.featuredimage.childImageSharp.fixed.src}
+                                        alt={post.frontmatter.title}
+                                    />
+                                : <img src={post.frontmatter.featuredimage.publicURL}
+                                        alt={post.frontmatter.title} 
+                                />
+                            }
+                        </div>
+                        <div className="column is-6">
+                            <PostContent content={post.html } />
+                        </div>
+                    </div>
+                </div>
+            </section>
         </Layout>
     )
 }
@@ -25,8 +41,14 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
        html
        frontmatter {
-        title
-        description
+         title, templateKey, current
+         featuredimage {
+           childImageSharp {
+             fixed(width: 800, height: 800) {
+                 ...GatsbyImageSharpFixed
+             }
+           }
+         }
        }
    }
 }`

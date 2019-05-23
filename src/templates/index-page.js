@@ -12,7 +12,7 @@ class IndexPage extends React.Component {
     this.myElement = null;
     // reference to the animation
     this.myTween = null;
-  }
+  } 
 
   render(){
     return (
@@ -37,7 +37,7 @@ IndexPage.propTypes = {
 export default IndexPage
 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
+  query IndexPage {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title

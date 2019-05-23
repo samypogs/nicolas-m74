@@ -77,10 +77,10 @@ class ArtistsPage extends React.Component {
                         <div className="columns">
                             <div className="column is-5">
                             {this.post.frontmatter.featuredimage.childImageSharp.fixed
-                            ? <img src={this.post.frontmatter.featuredimage.childImageSharp.fixed.src}
+                            ? <img className="stick-top" src={this.post.frontmatter.featuredimage.childImageSharp.fixed.src}
                                     alt={this.post.frontmatter.title}
                                 />
-                            : <img src={this.post.frontmatter.featuredimage.publicURL}
+                            : <img className="stick-top" src={this.post.frontmatter.featuredimage.publicURL}
                                     alt={this.post.frontmatter.title} 
                             />
                             }
