@@ -10,10 +10,10 @@ export const LibraryPageTemplate = ({ title, image, content, contentComponent })
   return (
     <section className="section__holder">
       <div className="columns">
-        <div className="column is-7">
+        <div className="column is-5">
             <img src={image.childImageSharp.fluid.src} alt="" />
         </div>
-        <div className="column is-5">
+        <div className="column is-7">
           <PageContent className="content" content={content} />
         </div>
       </div>
