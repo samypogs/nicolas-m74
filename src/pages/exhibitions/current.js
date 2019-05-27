@@ -22,7 +22,7 @@ const CurrentLanding = class extends React.Component {
     };
     return (
       <Layout>
-        <section className="section__holder">
+        <section className="section__holder-small">
           <div className="container">
                 {pages.length === 1 ? 
                     
@@ -40,6 +40,7 @@ const CurrentLanding = class extends React.Component {
                                     }
                                 </div>
                                 <div className="column is-7">
+                                    <h2 className="section__title">{node.frontmatter.title} </h2>
                                     <HTMLContent content={node.html} />
                                 </div>
                             </div>

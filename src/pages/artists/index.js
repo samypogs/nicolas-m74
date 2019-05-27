@@ -36,7 +36,7 @@ const ArtistLanding = class extends React.Component {
                     </figure>
                   
                   </AniLink>
-                </div> : ''
+                </div> : <div key={node.id}></div>
               ))}
             </div>
           </div>

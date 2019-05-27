@@ -67,7 +67,7 @@ const Navbar = class extends React.Component {
 
   changeText = (text, e) => {
     // toggle the active boolean in the state
-    e.target.textContent = text;
+    //e.target.textContent = text;
   };
 
   render() {
@@ -155,7 +155,7 @@ const Navbar = class extends React.Component {
                   className="menu-item-link"
                   activeClassName="menu-item-link__active"
                   partiallyActive={true}
-                  to="/exhibitions"
+                  to="/exhibitions/current"
                   onMouseOver={e => this.changeText("Exhibitions", e)}
                   onMouseLeave={e => this.changeText("Exhibiciones", e)}
                 >
@@ -180,7 +180,7 @@ const Navbar = class extends React.Component {
                 </ul>
 
 
-                
+
               </li>
               <li className="menu-item">
                 <AniLink  cover direction="up" bg="#f2f2f2"

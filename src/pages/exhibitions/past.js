@@ -62,7 +62,7 @@ const PastLanding = class extends React.Component {
                                         
                                     </div>
                                     <div className="gallery-list__item-description">
-                                        <h2>{node.frontmatter.title} </h2>
+                                        
                                     </div>
                                 </div>
                                 </AniLink>

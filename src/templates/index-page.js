@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import homeBanner from "../img/home-banner.jpg";
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
+import { Global, css } from "@emotion/core"
 
 
 class IndexPage extends React.Component {
@@ -17,6 +18,16 @@ class IndexPage extends React.Component {
   render(){
     return (
       <Layout title="M74" description="Simplify your life">
+        
+          <Global
+          styles={css`
+          .footer {
+            display: none
+            }
+
+            .site-container { position: static }
+          `}
+        />
         <div className="index-bg">
           <img src={homeBanner} className="big-image" alt="" />
         </div>
