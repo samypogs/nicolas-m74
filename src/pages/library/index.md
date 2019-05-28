@@ -1,7 +1,7 @@
 ---
 templateKey: library-page
 title: Library
-image: /img/kaung-myat-min-749991-unsplash.jpg
+image: /img/donate-yourbooks.jpg
 ---
 M74 está desarrollando su librería dedicada a la escultura. Invitamos a todos los escultores, 
 galerías y instituciones a enviarnos libros, catalogos o tesis sobre el tema de la escultura. \

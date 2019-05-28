@@ -17,7 +17,6 @@ class GalleryPage extends React.Component {
     this.post = this.props.data.markdownRemark;
 
     this.gallery = this.post.frontmatter.gallery_image;
-    console.log(this.post)
   }
 
   componentDidMount() {
@@ -86,8 +85,8 @@ class GalleryPage extends React.Component {
                 <section className="section__holder"  ref={n => (this.layoutContents = n)}>
                     <Slider {...settings}>
                         {this.gallery && this.gallery.map((node, i) => (
-                            <div>
-                                <img key={i} src={node.image.childImageSharp.fluid.src} alt={node.title} />
+                            <div key={i}>
+                                <img src={node.image.childImageSharp.fluid.src} alt={node.title} />
                                 <p style={{padding: '10px 0'}}>{node.description}</p>
                             </div>
                         ))}

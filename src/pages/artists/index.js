@@ -50,7 +50,7 @@ export default props => (
   <StaticQuery
     query={graphql`
       query {
-        allMarkdownRemark {
+        allMarkdownRemark(sort:{fields:frontmatter___title, order: ASC}) {
           edges {
             node {
               id

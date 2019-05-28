@@ -3,7 +3,10 @@ templateKey: artists
 title: Luke Hart
 date: 2019-05-18T14:38:51.208Z
 description: Luke Hart Bio
-featuredimage: /img/luke-hart-portrait.jpg
+featuredimage: /img/luke.jpg
+gallery_image:
+  - image: /img/luke.jpg
+    title: Sample Image 1
 ---
 **Citizenship**: British and US
 

@@ -20,7 +20,7 @@ const StudiosLanding = class extends React.Component {
                   <AniLink cover direction="top" bg="#f2f2f2" className="card-list__item" to={node.fields.slug}>
                   
                     <div className="studio-list__item">
-                        <img src={node.frontmatter.featuredimage.childImageSharp.fluid.src} alt={node.frontmatter.title} />
+                        <img src={node.frontmatter.featuredimage.childImageSharp.fixed.src} alt={node.frontmatter.title} />
                         <div className="studio-list__item-description">
                             <h2>{node.frontmatter.title}</h2>
                         </div>
@@ -41,7 +41,7 @@ export default props => (
   <StaticQuery
     query={graphql`
       query {
-        allMarkdownRemark {
+        allMarkdownRemark(sort:{fields:frontmatter___title, order: ASC}) {
           edges {
             node {
               id
@@ -49,10 +49,10 @@ export default props => (
                 title,templateKey
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 800, quality: 100) {
-                      ...GatsbyImageSharpFluid
+                      fixed(width: 700, height: 700) {
+                          ...GatsbyImageSharpFixed
+                      }
                     }
-                  }
                 }
               }
               fields {

@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import homeBanner from "../img/hood.png";
 import Layout from '../components/Layout'
+import Gmap from '../components/Gmap'
 import { graphql, Link } from 'gatsby'
 
 
@@ -19,18 +20,20 @@ class NeighborhoodPage extends React.Component {
     return (
       <Layout title="M74" description="Simplify your life">
         <section className="section__holder" style={{textAlign: 'center', position: 'relative'}}>
-          <a className="invisble_link link1" href="https://www.bibliotecavasconcelos.gob.mx/" target="_blank"></a>
-          <a className="invisble_link link2" href="http://www.chopo.unam.mx/" target="_blank"></a>
-          <a className="invisble_link link3" href="https://en.wikipedia.org/wiki/Dr_Lakra" target="_blank"></a>
-          <a className="invisble_link link4" href="https://palacio.inba.gob.mx/" target="_blank"></a>
-          <a className="invisble_link link5" href="https://museomuraldiegorivera.bellasartes.gob.mx/" target="_blank"></a>
-          <a className="invisble_link link6" href="https://www.instagram.com/frontera_115/?hl=en" target="_blank"></a>
+          <a className="invisble_link link1" rel="noopener noreferrer" href="https://www.bibliotecavasconcelos.gob.mx/" target="_blank"></a>
+          <a className="invisble_link link2" rel="noopener noreferrer" href="http://www.chopo.unam.mx/" target="_blank"></a>
+          <a className="invisble_link link3" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Dr_Lakra" target="_blank"></a>
+          <a className="invisble_link link4" rel="noopener noreferrer" href="https://palacio.inba.gob.mx/" target="_blank"></a>
+          <a className="invisble_link link5" rel="noopener noreferrer" href="https://museomuraldiegorivera.bellasartes.gob.mx/" target="_blank"></a>
+          <a className="invisble_link link6" rel="noopener noreferrer" href="https://www.instagram.com/frontera_115/?hl=en" target="_blank"></a>
 
-          
-          
-          <img src={homeBanner} className="big-image" alt="" />
+          <div className="gmap-mask">
+            <Gmap />
+          </div>
         </section>
-      
+
+
+        
       </Layout>
     )
   }

@@ -6,9 +6,13 @@ import Slider from "react-slick";
 
 
 
-const ArtistLanding = class extends React.Component {
+const GalleryLanding = class extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
-    const { data } = this.props
+    const { data, filter } = this.props
     const { edges: pages } = data.allMarkdownRemark
     const settings = {
       dots: false,
@@ -19,6 +23,7 @@ const ArtistLanding = class extends React.Component {
       slidesToShow: 1,
       slidesToScroll: 1
     };
+
     return (
       <Layout title={`M74 | Sculptor`}>
         <section className="section__holder">
@@ -33,7 +38,7 @@ const ArtistLanding = class extends React.Component {
                     <div className="gallery-list__item">
                         <Slider {...settings}>
                             {node.frontmatter.gallery_image && node.frontmatter.gallery_image.map((result, i) => (
-                                <div>
+                                <div key={i}>
                                     {result.image.childImageSharp.fixed
                                     ? <img src={result.image.childImageSharp.fixed.src}
                                             alt={result.title}
@@ -93,6 +98,6 @@ export default props => (
         }
       }
     `}
-    render={data => <ArtistLanding data={data}/>}
+    render={data => <GalleryLanding data={data}/>}
   />
 )

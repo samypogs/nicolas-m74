@@ -25,6 +25,8 @@ const ExhibitionPage = ({ data }) => {
                             }
                         </div>
                         <div className="column is-6">
+                            
+                            <h2 className="section__title">{post.frontmatter.title} </h2>
                             <PostContent content={post.html } />
                         </div>
                     </div>
