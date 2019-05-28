@@ -25,7 +25,7 @@ const GalleryLanding = class extends React.Component {
     };
 
     return (
-      <Layout title={`M74 | Sculptor`}>
+      <Layout title={`M74 | Gallery`}>
         <section className="section__holder">
           <div className="container">
             <div className="columns is-multiline">

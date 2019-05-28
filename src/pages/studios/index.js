@@ -10,7 +10,7 @@ const StudiosLanding = class extends React.Component {
     const { data } = this.props
     const { edges: pages } = data.allMarkdownRemark
     return (
-      <Layout>
+      <Layout title={`M74 | Studios`}>
         <section className="section__holder">
           <div className="container">
             <div className="columns is-multiline">

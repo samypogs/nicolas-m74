@@ -32,7 +32,7 @@ const MissionPage = ({ data }) => {
   console.log(data)
 
   return (
-    <Layout>
+    <Layout title={`M74 | Mission`}>
       <MissionPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

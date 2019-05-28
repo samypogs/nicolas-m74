@@ -18,7 +18,7 @@ class NeighborhoodPage extends React.Component {
 
   render(){
     return (
-      <Layout title="M74" description="Simplify your life">
+      <Layout  title={`M74 | La Colonia`}>
         <section className="section__holder" style={{textAlign: 'center', position: 'relative'}}>
           <a className="invisble_link link1" rel="noopener noreferrer" href="https://www.bibliotecavasconcelos.gob.mx/" target="_blank"></a>
           <a className="invisble_link link2" rel="noopener noreferrer" href="http://www.chopo.unam.mx/" target="_blank"></a>

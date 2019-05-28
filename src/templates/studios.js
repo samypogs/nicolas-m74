@@ -28,7 +28,7 @@ class StudiosPage extends React.Component {
           slidesToScroll: 1
         };
         return (
-            <Layout title={`M74 | Sculptor |  ${this.post.frontmatter.title}`} description={this.post.frontmatter.description}>
+            <Layout title={`M74 | Studios |  ${this.post.frontmatter.title}`} description={this.post.frontmatter.description}>
                 <section className="section__holder"  ref={n => (this.layoutContents = n)}>
                     <div className="container">
                         <div className="columns">

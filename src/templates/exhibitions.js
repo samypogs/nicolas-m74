@@ -10,7 +10,7 @@ const ExhibitionPage = ({ data }) => {
     const PostContent = HTMLContent
     const MetaTitle = post.frontmatter.current ? 'Current' : 'Past'
     return (
-        <Layout title={`M74 | Exhibition | ${MetaTitle} | ${post.frontmatter.title}`}>
+        <Layout title={`M74 | ${MetaTitle} Exhibitions | ${post.frontmatter.title}`}>
             <section className="section__holder">
                 <div className="container">
                     <div className="columns">

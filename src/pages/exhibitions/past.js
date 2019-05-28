@@ -21,7 +21,7 @@ const PastLanding = class extends React.Component {
       slidesToScroll: 1
     };
     return (
-      <Layout>
+      <Layout title={`M74 | Past Exhibitions`}>
         <section className="section__holder-small">
           <div className="container">
                 {pages.length === 1 ? 
