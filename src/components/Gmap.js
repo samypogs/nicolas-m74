@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import {Gmaps, Marker, InfoWindow, Circle} from 'react-gmaps';
 
 const coords = {
-  lat: 19.452390,
-  lng: -99.145740
+  lat: 19.4433396,
+  lng: -99.1445044
 };
 
 const params = {v: '3.exp', key: 'AIzaSyDeUY4gzlFSwqiLXOjBqkGZbOaBzwTVn7E'};
@@ -40,15 +40,74 @@ class MyGoogleMap extends React.Component {
         loadingMessage={'Loading M74 neighborhood...'}
         params={params}
         onMapCreated={this.onMapCreated}>
+
+            
         <Marker
           lat={coords.lat}
           lng={coords.lng}
           draggable={false}
           onClick={this.onClick} />
+            
+        <Marker
+            lat="19.441998"
+            lng="-99.1589111"
+            draggable={false}
+            onClick={this.onClick} />
+        <InfoWindow
+            lat="19.441998"
+            lng="-99.1589111"
+            content={'<a rel="noopener noreferrer" href="http://www.chopo.unam.mx/" target="_blank"><strong>Museo del Chopo</strong></a>'}
+            onCloseClick={this.onCloseClick} />
+            
+        <Marker
+            lat="19.446712"
+            lng="-99.1530116"
+            draggable={false}
+            onClick={this.onClick} />
+        <InfoWindow
+            lat="19.446712"
+            lng="-99.1530116"
+          content={'<a rel="noopener noreferrer" href="https://www.bibliotecavasconcelos.gob.mx/" target="_blank"><strong>Biblioteca Vasconcelos</strong></a>'}
+          onCloseClick={this.onCloseClick} />
+    
+        <Marker
+            lat="19.4361518"
+            lng="-99.1491577"
+            draggable={false}
+            onClick={this.onClick} />
+        <InfoWindow
+            lat="19.4361518"
+            lng="-99.1491577"
+            content={'<a rel="noopener noreferrer"  href="https://museomuraldiegorivera.bellasartes.gob.mx/" target="_blank"><strong>Museo Diego Rivera</strong></a>'}
+            onCloseClick={this.onCloseClick} />
+    
+        <Marker
+            lat="19.4363929"
+            lng="-99.1439954"
+            draggable={false}
+            onClick={this.onClick} />
+            <InfoWindow
+            lat="19.4363929"
+            lng="-99.1439954"
+                content={'<a rel="noopener noreferrer" href="https://museomuraldiegorivera.bellasartes.gob.mx/" target="_blank"><strong>Bellas Artes</strong></a>'}
+                onCloseClick={this.onCloseClick} />
+    
+        <Marker
+            lat="19.4350953"
+            lng="-99.136452"
+            draggable={false}
+            onClick={this.onClick} />
+            <InfoWindow
+            lat="19.4350953"
+            lng="-99.136452"
+                content={'<a rel="noopener noreferrer" href="https://www.instagram.com/frontera_115/?hl=en" target="_blank"><strong>Frontera Galeria y Taller</strong></a>'}
+                onCloseClick={this.onCloseClick} />
+
+
         <InfoWindow
           lat={coords.lat}
           lng={coords.lng}
-          content={'<strong>M74 base</strong> <p>We are here.</p>'}
+          content={'<strong>M74</strong>'}
           onCloseClick={this.onCloseClick} />
       </Gmaps>
     );
