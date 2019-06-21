@@ -67,7 +67,7 @@ const Navbar = class extends React.Component {
 
   changeText = (text, e) => {
     // toggle the active boolean in the state
-    //e.target.textContent = text;
+    e.target.textContent = text;
   };
 
   render() {
