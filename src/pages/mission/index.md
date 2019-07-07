@@ -1,7 +1,7 @@
 ---
 templateKey: mission-page
 title: Mission
-image: /img/mission-image.jpg
+image: /img/m74_low.jpg
 ---
 M74 es un proyecto dirigido por artistas, dedicado a la escultura, con el objetivo de apoyar a los escultores.
 Con esta initiativo, querremos crear una comunidad de artistas que tienen una vision y una pasion para la escultura en comun.
