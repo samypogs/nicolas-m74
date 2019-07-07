@@ -20,7 +20,13 @@ gallery_image:
 ---
 **Adeline de Monseignat** (b.1987) is a sculptor who lives and works between London and Mexico City.  Her work translates an interest in psychology, mythology, urban legends, anthropology and other literary sources which refer to birth, fertility, anthropomorphism and the uncanny.  Through the process of sculpting, the artist aims to provide physicality and functionality to such intangible concepts.  Adeline works primarily with organic, mineral, sensual, strong yet vulnerable materials such as fur, glass, textiles, steel and marble that aim to echo the human body’s qualities, vulnerabilities and potentialities.
 
-## **Education:**  
+
+
+[www.adelinedemonseignat.com](www.adelinedemonseignat.com)
+
+
+
+## **Education:**
 
 BA in Language and Culture at UCL (2009), Art Foundation at the Slade School of Fine Art (2010), 
 
@@ -64,7 +70,7 @@ Selected Group Shows: 'Skulpturenpark' at Lisa Kandlhofer, Vienna (2018),
 
 'The Threadneedle Prize' at the Mall Galleries, London (2012). 
 
-## Selected Prizes: 
+## Selected Prizes:
 
 Royal Society of Sculptors Bursary Awards (2013), 
 
@@ -72,7 +78,7 @@ Fack West London Art Prize (2013),
 
 The Catlin Art Prize (Visitor's Vote Prize Winner, 2012) and Arcadia Missa Gallery Prize (2011). 
 
-## Selected Screenings: 
+## Selected Screenings:
 
 'In The Flesh' at Freud Museum, London (2016), Exeter Phoenix (2016), 
 
