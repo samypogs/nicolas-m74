@@ -1,12 +1,14 @@
 ---
 templateKey: library-page
 title: Library
-image: /img/donate-yourbooks.jpg
+image: /img/donate-books.jpg
 ---
-M74 está desarrollando su librería dedicada a la escultura. Invitamos a todos los escultores, 
+M74 está desarrollando su biblioteca dedicada a la escultura. Invitamos a todos los escultores, 
 galerías y instituciones a enviarnos libros, catalogos o tesis sobre el tema de la escultura. \
 Una vez lista, la librería será accesible a todos. \
-Gracias por sus contribuciones. Por favor de mandarnos sus libros a:
+Gracias por sus contribuciones.
+
+Por favor de mandarnos sus libros a:
 
 Moctezuma 74 \
 Colonia Guerrero, 06300 \
@@ -14,9 +16,9 @@ Ciudad de México \
 México \
  &nbsp;
 
-As M74 is slowly building its library soley dedicated to sculptors’ catalogues and books on \
+As M74 is slowly building its library solely dedicated to sculptors’ catalogues and books on \
 sculpture, we are inviting all sculptors, galleries and institutions to donate a copy of their \
-books, catalogues or theses on the them of sculpture. \
+books, catalogues on the theme of sculpture. \
 Thank you in advance for your contributions. \
 Please post them to:
 
