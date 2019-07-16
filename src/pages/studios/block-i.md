@@ -4,6 +4,36 @@ title: Block I
 date: 2019-05-17T14:41:52.625Z
 description: |
   Block I
-featuredimage: /img/home-jumbotron.jpg
+featuredimage: /img/apple-touch-icon.png
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id eu nisl nunc mi. Congue eu consequat ac felis donec et odio pellentesque diam. Egestas pretium aenean pharetra magna ac placerat. Sed faucibus turpis in eu mi bibendum neque egestas congue. Laoreet non curabitur gravida arcu ac tortor dignissim convallis. Volutpat commodo sed egestas egestas. Diam sollicitudin tempor id eu nisl nunc mi. Tellus integer feugiat scelerisque varius morbi enim nunc. Varius vel pharetra vel turpis nunc eget lorem dolor sed. Eu mi bibendum neque egestas congue quisque egestas diam in. Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Quis hendrerit dolor magna eget est. Bibendum neque egestas congue quisque egestas diam in. Augue lacus viverra vitae congue eu.
+
+
+**Best Suited** 
+
+The studio is part of a dynamic array of artists specializing in sculpture, the large space is ideal for a workshop style practice as the hard-wearing floor allows the artist to develop their practice without the standard limitation of a traditional space.  The studio could eventually adapt itself as a Life/work space, as long as artists practice is still the main priority within the space. 
+
+\*As a side note STUDIO BLOCK I door is a standard sized door, so it is best suited for an artist working on smaller formats.
+
+
+
+**Specifications**
+
+74m2 - 3m-heigh ceilings - North facing large window - 220V electricity installation - bathroom and shower 
+
+
+
+**Utilities**
+
+Electricity and internet are paid for by the tenant, water and gas are included within the rental price.
+
+
+
+**Additional specs**
+
+The sink comes with a doublé drainage system, to avoid blockages - Windows can be unmounted to fit in larger objects into the space - The large window area is a natural ventilation system - Set of five double industrial quality sockets for power tools.
+
+
+
+**Furniture**
+
+Large sink 100 x 50cm - An antique steel desk – Fire hydrant
