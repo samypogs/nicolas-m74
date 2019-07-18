@@ -5,6 +5,8 @@ date: 2019-05-21T20:54:54.028Z
 description: Block IV
 featuredimage: /img/studio-block-iv.jpg
 gallery_image:
+  - image: /img/studio-block-iv.jpg
+    title: BLOCK IV - 53m2
   - image: /img/block_4_1.jpg
     title: Sample Image 1
   - image: /img/block_4_2.jpg
@@ -15,8 +17,6 @@ gallery_image:
     title: Sample Image 4
   - image: /img/block_4_5.jpg
     title: Sample Image 5
-  - image: /img/studio-block-iv.jpg
-    title: BLOCK IV - 53m2
 ---
 **Best Suited** 
 
