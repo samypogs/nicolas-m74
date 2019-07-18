@@ -4,7 +4,7 @@ title: Block II
 date: 2019-05-17T14:42:26.304Z
 description: |
   Block II
-featuredimage: /img/block_2_1.jpg
+featuredimage: /img/studio-block-ii.jpg
 gallery_image:
   - image: /img/block_2_1.jpg
     title: Sample Image 1
