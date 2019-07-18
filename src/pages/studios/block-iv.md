@@ -3,7 +3,7 @@ templateKey: studios
 title: Block IV
 date: 2019-05-21T20:54:54.028Z
 description: Block IV
-featuredimage: /img/block_4_1.jpg
+featuredimage: /img/studio-block-iv.jpg
 gallery_image:
   - image: /img/block_4_1.jpg
     title: Sample Image 1
