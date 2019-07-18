@@ -6,6 +6,8 @@ description: |
   Block II
 featuredimage: /img/studio-block-ii.jpg
 gallery_image:
+  - image: /img/studio-block-ii.jpg
+    title: BLOCK II - 97m2
   - image: /img/block_2_1.jpg
     title: Sample Image 1
   - image: /img/block_2_2.jpg
@@ -16,8 +18,6 @@ gallery_image:
     title: Sample Image 4
   - image: /img/block_2_5.jpg
     title: Sample Image 5
-  - image: /img/studio-block-ii.jpg
-    title: BLOCK II - 97m2
 ---
 **Best Suited** 
 
