@@ -13,10 +13,10 @@ gallery_image:
   - image: /img/m74-lg-cubic-gallery-03.jpg
     title: Cubic Gallery
     description: 90m2
-  - image: /img/cubic-gallery.jpg
+  - image: /img/cubic-gallery-plan.jpg
     title: Cubic Gallery
     description: 90m2
-  - image: /img/cubic-gallery-plan.jpg
+  - image: /img/cubic-gallery.jpg
     title: Cubic Gallery
     description: 90m2
 ---
