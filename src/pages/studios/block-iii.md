@@ -4,6 +4,9 @@ title: Block III
 date: 2019-05-21T20:53:30.714Z
 description: 'Block III '
 featuredimage: /img/studio-block-iii.jpg
+gallery_image:
+  - image: /img/studio-block-iii.jpg
+    title: BLOCK III - 70m2
 ---
 **Best Suited** 
 
