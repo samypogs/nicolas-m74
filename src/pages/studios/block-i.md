@@ -4,7 +4,7 @@ title: Block I
 date: 2019-05-17T14:41:52.625Z
 description: |
   Block I
-featuredimage: /img/apple-touch-icon.png
+featuredimage: /img/studio-block-i.jpg
 ---
 
 
