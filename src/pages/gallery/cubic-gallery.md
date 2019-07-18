@@ -16,5 +16,8 @@ gallery_image:
   - image: /img/cubic-gallery.jpg
     title: Cubic Gallery
     description: 90m2
+  - image: /img/cubic-gallery-plan.jpg
+    title: Cubic Gallery
+    description: 90m2
 ---
 
