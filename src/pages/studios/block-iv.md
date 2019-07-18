@@ -15,6 +15,8 @@ gallery_image:
     title: Sample Image 4
   - image: /img/block_4_5.jpg
     title: Sample Image 5
+  - image: /img/studio-block-iv.jpg
+    title: BLOCK IV - 53m2
 ---
 **Best Suited** 
 
