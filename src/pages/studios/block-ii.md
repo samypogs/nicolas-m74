@@ -16,6 +16,8 @@ gallery_image:
     title: Sample Image 4
   - image: /img/block_2_5.jpg
     title: Sample Image 5
+  - image: /img/studio-block-ii.jpg
+    title: BLOCK II - 97m2
 ---
 **Best Suited** 
 
