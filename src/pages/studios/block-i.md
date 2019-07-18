@@ -5,6 +5,9 @@ date: 2019-05-17T14:41:52.625Z
 description: |
   Block I
 featuredimage: /img/studio-block-i.jpg
+gallery_image:
+  - image: /img/studio-block-i.jpg
+    title: BLOCK I - 74m2
 ---
 
 
