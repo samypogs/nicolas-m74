@@ -8,6 +8,8 @@ gallery_image:
   - image: /img/studio-block-iii.jpg
     title: BLOCK III - 70m2
 ---
+**BLOCK III**
+
 **Best Suited** 
 
 The studio is part of a dynamic array of artists specializing in sculpture, the large space is ideal for a workshop style practice as the hard-wearing floor allows the artist to develop their practice without the standard limitation of a traditional space.  The door of this space is considerably larger than a traditional door, making it easy to bring large objects in and out of the space. The studio could eventually adapt itself as a Life/work space, as long as artists practice is still the main priority within the space. 
