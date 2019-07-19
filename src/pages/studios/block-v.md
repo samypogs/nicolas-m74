@@ -3,18 +3,20 @@ templateKey: studios
 title: Block V
 date: 2019-05-21T23:27:03.553Z
 description: Block V
-featuredimage: /img/block_5_3.jpg
+featuredimage: /img/block-v-plan.jpg
 gallery_image:
   - image: /img/block_5_1.jpg
-    title: Sample Image 1
+    title: BLOCK V
   - image: /img/block_5_2.jpg
-    title: Sample Image 2
+    title: BLOCK V
   - image: /img/block_5_3.jpg
-    title: Sample Image 3
+    title: BLOCK V
   - image: /img/block_5_4.jpg
-    title: Sample Image 4
+    title: BLOCK V
   - image: /img/block_5_5.jpg
-    title: Sample Image 5
+    title: BLOCK V
+  - image: /img/block-v-plan.jpg
+    title: BLOCK V
 ---
 **BLOCK V**
 
