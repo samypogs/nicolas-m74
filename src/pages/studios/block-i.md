@@ -9,7 +9,7 @@ gallery_image:
   - image: /img/studio-block-i.jpg
     title: BLOCK I - 74m2
 ---
-
+**BLOCK I**
 
 **Best Suited** 
 
@@ -17,25 +17,17 @@ The studio is part of a dynamic array of artists specializing in sculpture, the 
 
 \*As a side note STUDIO BLOCK I door is a standard sized door, so it is best suited for an artist working on smaller formats.
 
-
-
 **Specifications**
 
 74m2 - 3m-heigh ceilings - North facing large window - 220V electricity installation - bathroom and shower 
-
-
 
 **Utilities**
 
 Electricity and internet are paid for by the tenant, water and gas are included within the rental price.
 
-
-
 **Additional specs**
 
 The sink comes with a doublé drainage system, to avoid blockages - Windows can be unmounted to fit in larger objects into the space - The large window area is a natural ventilation system - Set of five double industrial quality sockets for power tools.
-
-
 
 **Furniture**
 
