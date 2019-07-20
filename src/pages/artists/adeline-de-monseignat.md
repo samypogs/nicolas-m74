@@ -3,7 +3,7 @@ templateKey: artists
 title: Adeline de Monseignat
 date: 2019-05-17T14:40:28.776Z
 description: Adeline de Monseignat
-featuredimage: /img/adeline_2.png
+featuredimage: /img/adeline.jpg
 gallery_image:
   - image: /img/adeline_2.png
     title: Sample Image 1
