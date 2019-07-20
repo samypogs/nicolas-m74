@@ -9,6 +9,6 @@ Visitas únicamente por cita.  Por visitarnos o por alguna información sobre la
 
 Visits by appointment only. To visit us or for any further information with regards to the rental of our studios or gallery spaces, please email us at info@studioblockm74.com
 
-+52 (55) 5529 7958
-
 Moctezuma 74, Colonia Guerrero 06300, Ciudad de México, México
+
++52 (55) 5529 7958
