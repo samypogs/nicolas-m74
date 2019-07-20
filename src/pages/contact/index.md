@@ -1,7 +1,7 @@
 ---
 templateKey: contact-page
 title: Library
-image: /img/m74.jpg
+image: /img/m74-lg-m74-gallery.jpg
 ---
 **CONTACT**
 
