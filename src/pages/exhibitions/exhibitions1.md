@@ -1,10 +1,10 @@
 ---
 templateKey: exhibitions
-title: exhibitions 1
+title: Espectro Visible
 current: true
 date: 2019-05-17T14:41:52.625Z
 description: |
-  exhibitions 1
+  Espectro Visible
 featuredimage: /img/past-exhibition1.jpg
 ---
 **Espectro Visible**
