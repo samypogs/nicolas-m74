@@ -1,10 +1,10 @@
 ---
 templateKey: exhibitions
-title: exhibitions 3
+title: M74 Group Show
 current: false
 date: 2019-05-17T14:41:52.625Z
 description: |
-  exhibitions 3
+  M74 Group Show
 featuredimage: /img/past-exhibition2.jpg
 ---
 M74 Group Show
