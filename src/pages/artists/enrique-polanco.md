@@ -7,7 +7,7 @@ featuredimage: /img/enrique_polanco-portrait.jpg
 ---
 **Enrique Polanco** is a sculptor born in Venezuela currently working in Mexico City.  His work translates an interest in using a neo-praxis experimental system of the daily manual work.  His practice is an exploration of materials of the cosmos, and of the spacial-temporal dimension. He works mainly with ceramics, gesso, bronze, concrete, wood and drawing.
 
-www.enriquepolanco.com
+[www.enriquepolanco.com](www.enriquepolanco.com)
 
 **Education:**  BA in Architecture and Urbanism, Universidad Central de Venezuela (2013).
 
