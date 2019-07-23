@@ -56,13 +56,6 @@ export default props => (
               id
               frontmatter {
                 title,templateKey
-                featuredimage {
-                  childImageSharp {
-                    fixed(width: 500, height: 500) {
-                        ...GatsbyImageSharpFixed
-                    }
-                  }
-                }
               }
               fields {
                 slug
