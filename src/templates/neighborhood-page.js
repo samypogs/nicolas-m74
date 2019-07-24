@@ -30,6 +30,15 @@ class NeighborhoodPage extends React.Component {
           <div className="gmap-mask">
             <Gmap />
           </div>
+
+          <div style={{margin: '50px auto', fontSize: '12px', maxWidth: '800px'}}>
+            <p style={{marginBottom: '20px'}}>Studio Block M74 is located in La Colonia Guerrero, one of the oldest neighbourhoods of Mexico City, which is currently being rediscovered and reinserted into contemporary culture by its artists and intellectuals, such as Dr. Lakra, the son of highly respected artist Francisco Toledo. Historically, La Colonia Guerrero was home to the architect Rivas Mercado, the politician José Yves Limantour and the actor Cantinflas.</p>
+            <p>The area is sandwiched between Santa Maria de la Ribera (Casa Wabi, Casa Equis), Colonia Juarez (Edificio Humboldt, Galeria OMR) and the Historical Centre (Bellas Artes, Diego Rivera Museum).  Studio Block M74 is thus a stone’s throw away from the city’s best museums, restaurants, ancient ruins, but also all the materials and tool shops a sculptor may need.
+
+Studio Block M74 is right off the main avenue of Reforma and is easily accessible by car, Metro (Guerrero) and Metro Bus (Garibaldi).
+
+</p>
+          </div>
         </section>
 
 
@@ -62,7 +71,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
         description
       }
     }

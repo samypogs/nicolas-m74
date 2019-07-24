@@ -92,9 +92,9 @@ class MyGoogleMap extends React.Component {
                 content={'<a rel="noopener noreferrer" href="https://museomuraldiegorivera.bellasartes.gob.mx/" target="_blank"><strong>Bellas Artes</strong></a>'}
                 onCloseClick={this.onCloseClick} />
     
-        <Marker
-            lat="19.4350953"
-            lng="-99.136452"
+    <Marker
+            lat="19.4424737"
+            lng="-99.1415707"
             draggable={false}
             onClick={this.onClick} />
             <InfoWindow
@@ -102,7 +102,36 @@ class MyGoogleMap extends React.Component {
             lng="-99.136452"
                 content={'<a rel="noopener noreferrer" href="https://www.instagram.com/frontera_115/?hl=en" target="_blank"><strong>Frontera Galeria y Taller</strong></a>'}
                 onCloseClick={this.onCloseClick} />
-
+      <Marker
+          lat="19.4424737"
+          lng="-99.1415707"
+          draggable={false}
+          onClick={this.onClick} />
+          <InfoWindow
+          lat="19.4406139"
+          lng="-99.1489714"
+              content={'<strong>Casa Rivas Mercado</strong>'}
+              onCloseClick={this.onCloseClick} />
+      <Marker
+          lat="19.4424737"
+          lng="-99.1415707"
+          draggable={false}
+          onClick={this.onClick} />
+          <InfoWindow
+          lat="19.4406139"
+          lng="-99.1489714"
+              content={'<strong>Fundacion Casa Wabi</strong>'}
+              onCloseClick={this.onCloseClick} />
+      <Marker
+          lat="19.4424737"
+          lng="-99.1415707"
+          draggable={false}
+          onClick={this.onClick} />
+          <InfoWindow
+          lat="19.4410444"
+          lng="-99.1587501"
+              content={'<strong>Casa Equis</strong>'}
+              onCloseClick={this.onCloseClick} />
 
         <InfoWindow
           lat={coords.lat}

@@ -117,6 +117,17 @@ export const pageQuery = graphql`
             description
           }
         description
+        gallery_image{
+            image {
+                childImageSharp {
+                    fixed(width: 700, height: 700) {
+                        ...GatsbyImageSharpFixed
+                    }
+                  }
+            }
+            title
+            description
+        }
        }
    }
 }`

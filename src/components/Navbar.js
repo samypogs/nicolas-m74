@@ -155,7 +155,7 @@ const Navbar = class extends React.Component {
                   className="menu-item-link"
                   activeClassName="menu-item-link__active"
                   partiallyActive={true}
-                  to="/exhibitions/current"
+                  to="/exhibitions"
                   onMouseOver={e => this.changeText("Exhibitions", e)}
                   onMouseLeave={e => this.changeText("Exhibiciones", e)}
                 >
@@ -167,13 +167,17 @@ const Navbar = class extends React.Component {
                 <ul className="sub-menu">
                   <li>
                     <AniLink cover direction="down" bg="#f2f2f2" className="menu-item-link" 
-                      activeClassName="menu-item-link__active" to="/exhibitions/current">
+                      activeClassName="menu-item-link__active" to="/exhibitions/current"
+                      onMouseOver={e => this.changeText("Current", e)}
+                      onMouseLeave={e => this.changeText("Actual", e)}>
                       Actual
                     </AniLink>
                   </li>
                   <li>
                     <AniLink cover direction="down" bg="#f2f2f2" className="menu-item-link" 
-                      activeClassName="menu-item-link__active" to="/exhibitions/past">
+                      activeClassName="menu-item-link__active" to="/exhibitions/past"
+                      onMouseOver={e => this.changeText("Past", e)}
+                      onMouseLeave={e => this.changeText("Anteriores", e)}>
                       Anteriores
                     </AniLink>
                   </li>

@@ -5,8 +5,6 @@ date: 2019-05-17T14:40:28.776Z
 description: Adeline de Monseignat
 featuredimage: /img/adeline.jpg
 gallery_image:
-  - image: /img/adeline_2.png
-    title: Sample Image 1
   - image: /img/adeline_1.jpg
     title: Sample Image 2
   - image: /img/adeline_3.JPG

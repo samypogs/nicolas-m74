@@ -37,29 +37,6 @@ module.exports = {
       options: {
         plugins: [
           {
-            // keep as first gatsby-source-filesystem plugin for gatsby image support
-            resolve: 'gatsby-source-filesystem',
-            options: {
-              path: `${__dirname}/static/img`,
-              name: 'uploads',
-            },
-          },
-          {
-            resolve: 'gatsby-source-filesystem',
-            options: {
-              path: `${__dirname}/src/pages`,
-              name: 'pages',
-            },
-          },
-          {
-
-            resolve: 'gatsby-source-filesystem',
-            options: {
-              path: `${__dirname}/src/img`,
-              name: 'images',
-            },
-          },
-          {
             resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',
@@ -71,7 +48,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 548,
+              maxWidth: 1048,
             },
           },
           {

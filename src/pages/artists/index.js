@@ -2,13 +2,28 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import { graphql, StaticQuery } from 'gatsby'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import Slider from "react-slick";
 
 
 
 const ArtistLanding = class extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
-    const { data } = this.props
+    const { data, filter } = this.props
     const { edges: pages } = data.allMarkdownRemark
+    const settings = {
+      dots: false,
+      infinite: true,
+      speed: 300,
+      adaptiveHeight: true,
+      autoplay: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+
     return (
       <Layout title={`M74 | Sculptor`}>
         <section className="section__holder">
@@ -19,21 +34,18 @@ const ArtistLanding = class extends React.Component {
                 <div className="column is-4" key={node.id}>
                   <AniLink cover direction="top" bg="#f2f2f2" className="card-list__item" to={node.fields.slug}>
                   
-                    <figure className="imghvr-push-up">
-                        {node.frontmatter.featuredimage.childImageSharp.fixed
-                            ? <img src={node.frontmatter.featuredimage.childImageSharp.fixed.src}
-                                    alt={node.frontmatter.title}
-                                />
-                            : <img src={node.frontmatter.featuredimage.publicURL}
-                                    alt={node.frontmatter.title} 
-                            />
-                            }
-                        <figcaption className="figure-caption">
+                    <div className="gallery-list__item">
+                        <Slider {...settings}>
+                            {node.frontmatter.featuredimage ? <img src={node.frontmatter.featuredimage.childImageSharp.fixed.src}
+                                            alt={node.frontmatter.title}
+                                        /> : ''}
+                        </Slider>
+
+                        
+                        <div className="gallery-list__item-description">
                             <h2>{node.frontmatter.title}</h2>
-                            <div className="figure-caption__description">{node.frontmatter.title}</div>
-                            <p><button className="button is-black">Read More</button></p>
-                        </figcaption>
-                    </figure>
+                        </div>
+                    </div>
                   
                   </AniLink>
                 </div> : <div key={node.id}></div>
@@ -56,6 +68,13 @@ export default props => (
               id
               frontmatter {
                 title,templateKey
+                featuredimage {
+                  childImageSharp {
+                    fixed(width: 500, height: 500) {
+                        ...GatsbyImageSharpFixed
+                    }
+                  }
+                }
               }
               fields {
                 slug
