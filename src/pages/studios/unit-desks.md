@@ -4,6 +4,8 @@ title: Unit Desks
 date: 2019-05-21T23:28:43.966Z
 description: Unit Desks
 featuredimage: /img/unit-desks.jpg
+gallery_image:
+  - image: /img/unit-desks.jpg
 ---
 **UNIT DESKS**
 

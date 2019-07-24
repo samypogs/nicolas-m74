@@ -89,7 +89,7 @@ class MyGoogleMap extends React.Component {
             <InfoWindow
             lat="19.4363929"
             lng="-99.1439954"
-                content={'<a rel="noopener noreferrer" href="https://museomuraldiegorivera.bellasartes.gob.mx/" target="_blank"><strong>Bellas Artes</strong></a>'}
+                content={'<a rel="noopener noreferrer" href="https://palacio.inba.gob.mx/" target="_blank"><strong>Bellas Artes</strong></a>'}
                 onCloseClick={this.onCloseClick} />
     
     <Marker
@@ -98,9 +98,9 @@ class MyGoogleMap extends React.Component {
             draggable={false}
             onClick={this.onClick} />
             <InfoWindow
-            lat="19.4350953"
-            lng="-99.136452"
-                content={'<a rel="noopener noreferrer" href="https://www.instagram.com/frontera_115/?hl=en" target="_blank"><strong>Frontera Galeria y Taller</strong></a>'}
+            lat="19.4424687"
+            lng="-99.1415707"
+                content={'<a rel="noopener noreferrer" href="https://www.facebook.com/frontera115/" target="_blank"><strong>Frontera Galeria y Taller</strong></a>'}
                 onCloseClick={this.onCloseClick} />
       <Marker
           lat="19.4424737"
@@ -120,7 +120,7 @@ class MyGoogleMap extends React.Component {
           <InfoWindow
           lat="19.4406139"
           lng="-99.1489714"
-              content={'<strong>Fundacion Casa Wabi</strong>'}
+              content={'<strong><a rel="noopener noreferrer" href="http://casawabi.org/exhibiciones-santamaria></a>Fundacion Casa Wabi</strong>'}
               onCloseClick={this.onCloseClick} />
       <Marker
           lat="19.4424737"
@@ -130,7 +130,7 @@ class MyGoogleMap extends React.Component {
           <InfoWindow
           lat="19.4410444"
           lng="-99.1587501"
-              content={'<strong>Casa Equis</strong>'}
+              content={'<strong><a rel="noopener noreferrer" href="https://www.casaequis.com/">Casa Equis</strong></a>'}
               onCloseClick={this.onCloseClick} />
 
         <InfoWindow
