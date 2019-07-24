@@ -5,16 +5,12 @@ date: 2019-05-17T14:40:28.776Z
 description: Adeline de Monseignat
 featuredimage: /img/adeline.jpg
 gallery_image:
-  - image: /img/adeline_1.jpg
-    title: Sample Image 2
-  - image: /img/adeline_3.JPG
-    title: Sample Image 3
-  - image: /img/adeline_4.jpg
-    title: Sample Image 4
+  - image: /img/adeline.jpg
+    title: Adeline de Monseignat
 ---
 **Adeline de Monseignat** is a sculptor who lives and works between London and Mexico City.  Her work translates an interest in psychology, mythology, urban legends, anthropology and other literary sources which refer to birth, fertility, anthropomorphism and the uncanny.  Through the process of sculpting, the artist aims to provide physicality and functionality to such intangible concepts.  Adeline works primarily with organic, mineral, sensual, strong yet vulnerable materials such as fur, glass, textiles, steel and marble that aim to echo the human body’s qualities, vulnerabilities and potentialities.
 
-[www.adelinedemonseignat.com](www.adelinedemonseignat.com)
+[www.adelinedemonseignat.com](https://www.adelinedemonseignat.com)
 
 **Education:**  BA in Language and Culture at UCL (2009), Art Foundation at the Slade School of Fine Art (2010), MA in Fine Art at City & Guilds of London Art School (2011).
 
