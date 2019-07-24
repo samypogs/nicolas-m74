@@ -5,7 +5,9 @@ date: 2019-05-21T23:27:03.553Z
 description: Block V
 featuredimage: /img/block-v-plan.jpg
 gallery_image:
-  - image: /img/block_5_1.jpg
+  - image: /img/block-v-plan.jpg
+    title: BLOCK V
+  - image: /img/block-v-plan.jpg
     title: BLOCK V
   - image: /img/block_5_2.jpg
     title: BLOCK V
@@ -15,12 +17,8 @@ gallery_image:
     title: BLOCK V
   - image: /img/block_5_5.jpg
     title: BLOCK V
-  - image: /img/block-v-plan.jpg
-    title: BLOCK V
 ---
 **BLOCK V**
-
-****
 
 **Best Suited** 
 
