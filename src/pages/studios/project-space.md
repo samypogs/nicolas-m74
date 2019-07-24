@@ -5,6 +5,8 @@ date: 2019-05-21T23:31:47.070Z
 description: Project Space
 featuredimage: /img/project-space.jpg
 gallery_image:
+  - image: /img/project-space.jpg
+    title: PROJECT SPACE
   - image: /img/project_x_1.jpg
     title: Sample Image 1
   - image: /img/project_x_2.jpg
