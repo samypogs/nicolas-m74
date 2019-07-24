@@ -16,13 +16,13 @@ Ciudad de México \
 México \
  &nbsp;
 
-As M74 is slowly building its library solely dedicated to sculptors’ catalogues and books on \
-sculpture, we are inviting all sculptors, galleries and institutions to donate a copy of their \
-books, catalogues on the theme of sculpture. \
-Thank you in advance for your contributions. \
-Please post them to:
+_As M74 is slowly building its library solely dedicated to sculptors’ catalogues and books on_ \
+_sculpture, we are inviting all sculptors, galleries and institutions to donate a copy of their_ \
+_books, catalogues on the theme of sculpture._ \
+_Thank you in advance for your contributions._ \
+_Please post them to:_
 
-Moctezuma 74 \
-Colonia Guerrero, 06300 \
-Ciudad de México \
-México
+_Moctezuma 74_ \
+_Colonia Guerrero, 06300_ \
+_Ciudad de México_ \
+_México_
