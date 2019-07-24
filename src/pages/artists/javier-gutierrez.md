@@ -4,11 +4,13 @@ title: Javier Gutierrez Navarro
 date: 2019-05-17T14:36:47.386Z
 description: Javier Gutierrez Navarro
 featuredimage: /img/javier_gutierrez_navaro-portrait.jpg
-gallery_image: []
+gallery_image:
+  - image: /img/javier_gutierrez_navaro-portrait.jpg
+    title: Javier Gutierrez Navarro
 ---
 **Javier Gutierrez Navarro** is a sculptor currently working in Mexico City.  
 
-[www.javiergutierrezn.com](www.javiergutierrezn.com)
+[www.javiergutierrezn.com](https://www.javiergutierrezn.com)
 
 **Education:**  Bachelor’s in fine arts, Facultad de Artes y Diseño de la UNAM, (2017)
 
