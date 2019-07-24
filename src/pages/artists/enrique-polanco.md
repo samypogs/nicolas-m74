@@ -4,6 +4,9 @@ title: Enrique Polanco
 date: 2019-05-17T14:41:01.000Z
 description: Enrique Polanco
 featuredimage: /img/enrique_polanco-portrait.jpg
+gallery_image:
+  - image: /img/enrique_polanco-portrait.jpg
+    title: Enrique Polanco
 ---
 **Enrique Polanco** is a sculptor born in Venezuela currently working in Mexico City.  His work translates an interest in using a neo-praxis experimental system of the daily manual work.  His practice is an exploration of materials of the cosmos, and of the spacial-temporal dimension. He works mainly with ceramics, gesso, bronze, concrete, wood and drawing.
 
