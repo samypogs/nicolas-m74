@@ -1,7 +1,7 @@
 ---
 templateKey: exhibitions
 title: Espectro Visible
-current: true
+current: false
 date: 2019-05-17T14:41:52.625Z
 description: |
   Espectro Visible
