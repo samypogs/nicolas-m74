@@ -23,16 +23,7 @@ export const ContactPageTemplate = ({ title, image, content, contentComponent })
         </div>
         <div className="column is-5">
             <div style={{margin: '20px'}}>
-                <div style={{marginBottom: '20px',marginTop: '10px'}}>Visitas únicamente por cita.</div>
-                <div style={{marginBottom: '15px'}}>Por visitarnos o por alguna información<br />
-                sobre la renta de los talleres o de las galerías,<br />
-                mándanos un correo a:</div>
-                <div style={{marginBottom: '15px'}}><a href="mailto:info@studioblockm74.com">info@studioblockm74.com</a></div>
-                <div style={{marginBottom: '15px'}}><a href="tel:+525555297958">+52 (55) 5529 7958</a></div>
-                <div>Moctezuma 74</div>
-                <div>Colonia Guerrero, 06300</div>
-                <div>Ciudad de México</div>
-                <div>México</div>
+              <PageContent className="content" content={content} />
             </div>
 
         </div>

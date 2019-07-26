@@ -100,7 +100,7 @@ class MyGoogleMap extends React.Component {
             <InfoWindow
             lat="19.4424687"
             lng="-99.1415707"
-                content={'<a rel="noopener noreferrer" href="https://www.facebook.com/frontera115/" target="_blank"><strong>Frontera Galeria y Taller</strong></a>'}
+                content={'<a rel="noopener noreferrer" href="https://www.facebook.com/frontera115/" target="_blank"><strong>Frontera</strong></a>'}
                 onCloseClick={this.onCloseClick} />
       <Marker
           lat="19.4424737"

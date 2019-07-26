@@ -3,8 +3,7 @@ templateKey: exhibitions
 title: Espectro Visible
 current: false
 date: 2019-05-17T14:41:52.625Z
-description: |
-  Espectro Visible
+description: Espectro Visible
 featuredimage: /img/past-exhibition1.jpg
 ---
 **Espectro Visible**
