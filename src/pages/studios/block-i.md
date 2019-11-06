@@ -13,7 +13,7 @@ gallery_image:
 
 **Best Suited** 
 
-The studio is part of a dynamic array of artists specializing in sculpture, the large space is ideal for a workshop style practice as the hard-wearing floor allows the artist to develop their practice without the standard limitation of a traditional space.  The studio could eventually adapt itself as a Life/work space, as long as artists practice is still the main priority within the space. 
+The studio is part of a dynamic array of artists specializing in sculpture, the large space is ideal for a workshop style practice as the hard-wearing floor allows the artist to develop their practice without the standard limitation of a traditional space.  The studio could eventually adapt itself as a Life/work space, as long as artists practice is still the main priority within the space. c 
 
 \*As a side note STUDIO BLOCK I door is a standard sized door, so it is best suited for an artist working on smaller formats.
 
