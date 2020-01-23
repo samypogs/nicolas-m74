@@ -4,7 +4,7 @@ title: Silogismos de la Construccion
 current: false
 date: 2019-07-25T10:21:37.078Z
 description: Group Show
-featuredimage: /img/luke_hart-portrait.jpg
+featuredimage: /img/silogismosconstrucción-versión-final.jpg
 ---
 **Silogismos de la Construccion**
 
