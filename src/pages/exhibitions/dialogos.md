@@ -1,7 +1,7 @@
 ---
 templateKey: exhibitions
 title: Dialogos
-current: false
+current: true
 date: 2020-01-23T21:32:30.204Z
 description: >-
   Este Febrero nuestra presentación en la pequeña galería de M74 consiste de
