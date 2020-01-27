@@ -7,7 +7,7 @@
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
     "bulma": "^0.7.5",
-    "gatsby": "^2.6.0",
+    "gatsby": "^2.19.7",
     "gatsby-image": "^2.1.0",
     "gatsby-plugin-emotion": "^4.0.6",
     "gatsby-plugin-layout": "^1.0.15",
@@ -18,7 +18,7 @@
     "gatsby-plugin-purgecss": "^3.1.1",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sass": "^2.0.7",
-    "gatsby-plugin-sharp": "^2.0.37",
+    "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-plugin-transition-link": "^1.12.4",
     "gatsby-remark-copy-linked-files": "^2.0.12",
     "gatsby-remark-images": "^3.0.11",
@@ -66,9 +66,9 @@
   },
   "devDependencies": {
     "http-proxy-middleware": "^0.19.1",
-    "netlify-lambda": "^1.4.11",
+    "netlify-lambda": "^1.6.3",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.17.1",
-    "rimraf": "^2.6.2"
+    "prettier": "^1.19.1",
+    "rimraf": "^2.7.1"
   }
 }
