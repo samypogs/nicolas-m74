@@ -6,7 +6,7 @@ date: 2020-01-23T21:39:09.486Z
 description: |-
   Under the Volcano
   by Brooke Benington
-featuredimage: /img/volcano.jpg
+featuredimage: /img/volcano2.jpg
 ---
 Artists:
 
