@@ -1,23 +1,22 @@
 ---
 templateKey: artists
-title: Javier Gutierrez Navarro
+title: Alvaro Ugarte
 date: 2019-05-17T14:36:47.386Z
-description: Javier Gutierrez Navarro
-featuredimage: /img/javier_gutierrez_navaro-portrait.jpg
+description: Alvaro Ugarte
+featuredimage: /img/Alvaro Ugarte web.jpg
 gallery_image:
-  - image: /img/javier_gutierrez_navaro-portrait.jpg
-    title: Javier Gutierrez Navarro
+  - image: /img/Alvaro Ugarte web.jpg
+    title: Alvaro Ugarte
 ---
-**Javier Gutierrez Navarro** is a sculptor currently working in Mexico City.  
+**Alvaro Ugarte**(Guadalajara, Mexico, 1984)is a sculptor who lives and works in Mexico City.Most of Ugarte´s artistic practice begins as a social experience by staging scenarios or situations to function as devices of engagement between members of a given community. Consequently, the material outcomes, which are often unpredictable due to the nature of the actions and its collective dimensions; may take the form of sculptures, installations, or any other documentary record.\
+Moreover, his background in Social Science Communication, has undoubtedly shaped his artistic practice by given him the tools in how Ugarte relates to art —from its social implications to the methodologies applied in his researches.\
+More recently, Ugarte has expanded his field of study on analyzing mental structures and social behaviors. Where, through seemingly absurd procedures such as the act of sleeping, espionage and the use of esoteric query, tries to question how the mind function within specific social contexts.
 
-[www.javiergutierrezn.com](https://www.javiergutierrezn.com)
+[www.alvarougarte.com](www.alvarougarte.com)
 
-**Education:**  Bachelor’s in Fine Arts, Facultad de Artes y Diseño de la UNAM, (2017)
+\
+**Selected exhibitions include:**Paul Kasmin Gallery, NY, Chalton Gallery, London,MAZ Museo de Arte de Zapopan, MX and Fondazione Giorgio Cini, Venice, IT.
 
-**Selected exhibitions include:** La Mujer de 60 x sesenta. Exposición colectiva, MUCA, CU (2014); La Mujer de 60x sesenta. Exposición colectiva, Galería Nishizawa , Facultad de Artes y diseño de la UNAM (2014); Apuntes a 2/4 Exposición colectiva Centro de las Artes de San Agustín., CASA OAXACA (2015); Haznos el milagro, Mashimón (group show, 2018); Ahí viene el Coco, Museo regional de Nayarit, (2018); Silogismos de la construcción, Studio Block Moctezuma 74, Mexico City (group show, 2019). 
+**Residencies include:**Delfina Foundation, London, UK (2015), Casa Wabi residency, Oaxaca, MX (forthcoming 2020), and Hangar, Lisbon, PT (forthcoming 2020)
 
-**Selected awards and residencies include:** Sculpture and New Media, School of Visual Arts, Residency, NYC (2015); Grant by the Fantasy Fund at Modern Art Foundry, Production in Lost Wax Bronze Casting, NYC (2016).
-
-
-
-Portrait © Manfredi Gioacchini 2019
+**Awards include:**The Rolex Mentor and Protégé Arts Initiative on its cycle 8 (2016-2017).
