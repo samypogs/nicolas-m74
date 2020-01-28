@@ -1,6 +1,6 @@
 ---
 templateKey: artists
-title: Luke Hartt
+title: Luke Hart
 date: 2019-05-18T14:38:51.208Z
 description: Luke Hart
 featuredimage: /img/luke_hart-portrait.jpg
